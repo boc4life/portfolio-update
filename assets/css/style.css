@@ -41,50 +41,5 @@
 }
 
 #mainContent {
-    display: flex;
     height: 90%;
-    flex-direction: column;
-    justify-content: center;
 }
-
-#viewWork {
-    border: 3px solid;
-    padding: 1rem;
-    color: white;
-    background-color: #1f1f14;
-    font-weight: bold;
-    margin-top: 3rem;
-    display: inline-block;
-}
-
-#viewWork:hover {
-    background: transparent;
-}
-
-h1 {
-    font-weight: bold;
-}
-
-h2 {
-    font-weight: bold;
-}
-
-.fade-enter-active, .fade-leave-active {
-    transition: opacity 1s ease;
-  }
-
-  .fade-enter, .fade-leave-to  {
-    opacity: 0;
-  }
-
-/* .fade-complete-enter, .fade-complete-leave-to {
-    transform: translateY(-100px);
-} */
-
- .transitionTest {
-     display: block;
- }
-
- /* #test3 {
-     margin-top: 3rem
- } */

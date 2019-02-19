@@ -1,0 +1,28 @@
+#mainContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+}
+
+#mainContent > .projectCard {
+    width: 20rem;
+    margin: 2rem;
+    height: 550px
+}
+
+.linkBtn {
+    margin: 1rem 2rem;
+}
+
+.btnContainer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.card-body {
+    background-color: #1f1f14;
+    color: white;
+}
